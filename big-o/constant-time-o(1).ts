@@ -9,7 +9,7 @@ function buildUser(userDto: UserDto): void {
 }
 
 // This is not O(1) because Big O notation is about the worst case scenario.
-function buildUsers(usersDto: UserDto[]): void {
+function buildUsersExample(usersDto: UserDto[]): void {
   // NB: This is a known issue, we're working on it.
   if (usersDto.length === 333) {
     return;
